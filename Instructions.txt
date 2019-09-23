@@ -1,0 +1,19 @@
+This Python exercise is a beginner level exercise that can be completed multiple ways
+
+Title: Zombie Simulator
+
+Description: Create a simulation that gives an output to the user to say how many rounds it took for
+	the zombies to destroy a village.
+
+Rules: 
+
+*Start with 1 zombie
+*The village contains 100 houses
+*The zombies can go into any house at random
+*When a zombie destroys a house they infect a human (zombie = zombie + 1)
+*If a zombie enters a destroyed house, it does not infect a human
+*All zombies can move 1 time per turn
+*Have a clear output to the user to state, # of Houses destroyed, # of zombies, # of Rounds it took
+
+Hint: For this program you may want to use an array or list for the houses, Proper looping, and look into how to use
+	Random.randint(min, max)
